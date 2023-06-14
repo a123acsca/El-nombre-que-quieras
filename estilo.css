@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  margin: auto;
+  max-width: 1200px;
+  /* border: 1px red solid; */
+}
+.logo {
+  text-align: center;
+  padding: 10px;
+}
+.line1 {
+  height: 20px;
+  background-color: cornflowerblue;
+  border: 0;
+}
+.instrucciones {
+  padding: 10px;
+  border-bottom: 2px #003370 solid;
+  margin-top: 10px;
+}
+.azul {
+  color: #003370;
+  font-weight: bold;
+}
+.caja1 {
+  display: inline-block;
+  vertical-align: top;
+}
+.inst2 {
+  margin-left: 716px;
+}
+.formulario1 {
+  text-align: left;
+  padding: 20px;
+}
+.der {
+  width: 400px;
+}
+.izq {
+  width: 400px;
+  margin-left: 300px;
+}
+input {
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px #003370 solid;
+  border-radius: 3px;
+  width: 450px;
+}
+.titulo1 {
+  padding: 15px;
+  text-align: center;
+  background-color: #ececec;
+}
+.titulo1 h1 {
+  color: #003370;
+  font-size: 25px;
+}
+.warning {
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.formulario2 {
+  text-align: left;
+  padding: 18px;
+}
+.formulario2 textarea {
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px #003370 solid;
+  border-radius: 3px;
+  width: 1110px;
+  height: 150px;
+  resize: none;
+  font-family: helvetica;
+}
+button {
+  padding: 10px 50px;
+  background-color: #6298d1;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  margin-top: 30px;
+}
